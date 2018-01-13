@@ -143,9 +143,6 @@ def forward_chain(que):
     # Tried all sentences in KB - no unification (= No contradiction)
     return False
 
-# To hold working copy of the processed Knowledge Base
-working_unit_KB = []
-working_poly_KB = []
 
 if __name__ == '__main__':
     unit_KB_FC = []         # To hold single clause sentences in the FOL Knowledge Base (KB)
@@ -198,7 +195,6 @@ if __name__ == '__main__':
             else:
                 poly_KB_FC.append(temp)
 
-    global working_unit_KB, working_poly_KB
     for query in queries:
         # Negate the query
         if query[0] == '~':
