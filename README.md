@@ -24,23 +24,23 @@ Input
 -----
 The program reads a text file "input.txt" in the current directory. The format is as follows:
 
-> NQ: Number of queries
-  QUERY 1
-  …
-  QUERY NQ
-> NS: Number of sentences in the Knowledge Base
-> SENTENCE 1
-> …
-> SENTENCE NS
+- NQ: Number of queries
+- QUERY 1
+- …
+- QUERY NQ
+- NS: Number of sentences in the Knowledge Base
+- SENTENCE 1
+- …
+- SENTENCE NS
   
   
 Output
 ------
 Solution is written to "output.txt" in the current directory. The format is as follows:
 
-> ANSWER 1
-> …
-> ANSWER NQ
+- ANSWER 1
+- …
+- ANSWER NQ
   
 where each answer is either TRUE if the corresponding query can be proved as true given the
 Knowledge Base, or FALSE otherwise.
