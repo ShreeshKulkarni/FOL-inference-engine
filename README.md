@@ -25,9 +25,9 @@ Input
 The program reads a text file "input.txt" in the current directory. The format is as follows:
 
 > NQ: Number of queries
-> QUERY 1
-> …
-> QUERY NQ
+  QUERY 1
+  …
+  QUERY NQ
 > NS: Number of sentences in the Knowledge Base
 > SENTENCE 1
 > …
