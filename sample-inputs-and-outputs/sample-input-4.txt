@@ -1,0 +1,12 @@
+2
+F(A)
+~F(A)
+8
+~B(x)|~C(x)|H(x)
+~B(x)|~S(x)|G(x)|E(x)
+~E(x)|F(x)|C(o)
+H(x)
+B(x)
+S(x)
+~G(x)
+~C(x)

@@ -1,0 +1,11 @@
+2
+S(S)
+~S(S)
+7
+S(x)|M(x)
+~M(x)|~L(x,R)
+~S(x)|L(x,S)
+~L(T,x)|~L(E,x)
+L(T,x)|L(E,x)
+L(T,R)
+L(T,S)
